@@ -1,0 +1,31 @@
+---
+title: "adv_lab_1"
+output: html_document
+date: "2023-10-30"
+---
+
+## Loading Packages
+
+```{r setup}
+library(ggplot2)
+library(sf)
+library(tidyverse)
+```
+
+## Loading Boulder Data
+
+```{r}
+boulder <- st_read("D:/EAS648/lab_1/boulder_data/BoulderSocialMedia.shp")
+
+boulder
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
