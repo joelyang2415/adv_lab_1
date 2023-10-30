@@ -61,3 +61,20 @@ ggplot() +
 
 
 From the picture we can see that most of the pictures **were taken north of 39.98 degrees north latitude**, while many pictures are **clustered near 40 degrees north latitude**. There is no direct connection between the different social media and the location of the pictures.
+
+## Discussion 
+
+### The advantages and challenges associated with an open data science approach
+
+The advantage of open data is that it might bring people with rich, detailed, interrelated, timely and lower-cost data. For example, during the presidential election, open data can be used to use some models to fuse multiple variable data to predict the changing trend of public opinion.
+
+Challenges of open data include extracting useful, valid information from it. Due to the large amount of open data and the variety of data, previous quantitative analysis methods are often not fully applicable. More often, researchers need to combine other factors, such as careful rethinking with respect to the philosophy of science.
+
+### Bonus topic
+
+![Commit Screenshot](screenshot.png)
+
+
+File modification, publishing and other operations can be easily performed using git. The most common operation I use is to modify the file locally, and the code can be quickly updated to github, thereby publishing a new HTML web page, saving a lot of time.
+
+The web page of this Rmd html file is https://joelyang2415.github.io/adv_lab_1/
